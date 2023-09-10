@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Pashab52/goit-node-hw-01/issues"
   },
-  "homepage": "https://github.com/Pashab52/goit-node-hw-01#readme"
+  "homepage": "https://github.com/Pashab52/goit-node-hw-01#readme",
+  "dependencies": {
+    "comander": "^0.0.1-security"
+  }
 }
