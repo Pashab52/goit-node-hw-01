@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Pashab52/goit-node-hw-01#readme",
   "dependencies": {
     "comander": "^0.0.1-security",
+    "commander": "^11.0.0",
     "nanoid": "3.3.4"
   },
   "devDependencies": {
