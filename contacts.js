@@ -23,7 +23,6 @@ async function getContactById(contactId) {
 
 
 async function removeContact(contactId) {
-    // ...твій код. Повертає об'єкт видаленого контакту. Повертає null, якщо контакт з таким id не знайдений.
     const contacts = await listContacts();
     const contactIndex = contacts.findIndex(contact => contact.id === contactId);
     if (contactIndex !== -1) {
@@ -43,7 +42,6 @@ async function removeContact(contactId) {
 
 
 async function addContact(name, email, phone) {
-    // ...твій код. Повертає об'єкт доданого контакту.
     const contacts = await listContacts();
     const newContact = {
         id: nanoid(),
