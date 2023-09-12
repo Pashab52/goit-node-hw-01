@@ -11,16 +11,13 @@ async function listContacts() {
   } catch (error) {
     return error
     }
-  
 }
-
 
 async function getContactById(contactId) {
     const contacts = await listContacts();
     const contact = contacts.find(contact => contact.id === contactId);
     return contact || null;
 }
-
 
 async function removeContact(contactId) {
     const contacts = await listContacts();
@@ -39,7 +36,6 @@ async function removeContact(contactId) {
     }
     return null
 }
-
 
 async function addContact(name, email, phone) {
     const contacts = await listContacts();
@@ -60,7 +56,6 @@ async function addContact(name, email, phone) {
      }
     return newContact
 }
-
 
 module.exports={
     listContacts,
